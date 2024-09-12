@@ -14,4 +14,3 @@ print(magicians[1:4])
 
 print("The three last items in the list are: ")
 print(magicians[-3:])
-
