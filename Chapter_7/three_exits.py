@@ -15,7 +15,7 @@ while toppings_full == False:
         if topping == 'quit':
             break
         elif no_of_toppings < 4:
-            print(f'We are adding your topping now!')
+            print(f'We are adding {topping} now!')
             toppings.append(topping)
             no_of_toppings += 1
         
