@@ -23,6 +23,12 @@ print(f'\nWe are adding the following toppings: ')
 for top in toppings:
     print(top.title())
 
+note = input("Type 'toppings' if you need to see the toppings again: ")
+
+if note == 'toppings':
+    print(toppings)
+
+
 
 
 
