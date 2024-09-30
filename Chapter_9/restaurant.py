@@ -1,3 +1,5 @@
+"""A simple module to represent a restaurant"""
+
 class restaurant:
     """A simple class to model a restaurant"""
 
@@ -14,13 +16,3 @@ class restaurant:
         """Simulate the opening of the restaurant"""
         print(f"\nThe resturant {self.name} is opening now.")
     
-    
-Quillos = restaurant('Quillos', 'Mexican')
-Barries = restaurant('Barries', 'Cajun')
-Harmeens = restaurant('Harmeens', 'Indian')
-
-Quillos.describe_restaurant()
-Barries.describe_restaurant()
-Harmeens.describe_restaurant()
-
-Quillos.open_restaurant()

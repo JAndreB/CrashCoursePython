@@ -1,3 +1,5 @@
+"""A module to model a user"""
+
 class User:
     """A basic class to simulate a user."""
 
@@ -19,13 +21,3 @@ class User:
         """A function simulating a greeting"""
 
         print(f"\ngreetrings {self.first_name}!")
-
-user_1 = User("Maggie", "Wei", "15/12/2010", "LA")
-user_2 = User("Yandes", "Toloubere", "15/6/2002", "UK")
-user_3 = User("John", "Smith", "19/11/2001", "SA")
-user_4 = User("Kid", "Bailag", "13/05/1995", "Phillipines")
-
-user_1.describe_user()
-user_2.describe_user()
-user_3.describe_user()
-user_4.describe_user()
