@@ -1,0 +1,3 @@
+In python you can loop potentially infinitely
+In python you can make bots
+In python you can use json
